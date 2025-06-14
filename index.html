@@ -1,0 +1,126 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Keyboard Alchemist</title>
+  <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Special Elite', monospace;
+      background-color: #f4f1ec;
+      color: #222;
+      line-height: 1.6;
+    }
+    header {
+      background-color: #1c1c1c;
+      color: #f4f1ec;
+      padding: 2rem;
+      text-align: center;
+      animation: fadeIn 2s ease-in;
+    }
+    header h1 {
+      font-size: 2.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      animation: typing 4s steps(40, end), blink .75s step-end infinite;
+      white-space: nowrap;
+      overflow: hidden;
+      border-right: 3px solid;
+      width: 100%;
+      max-width: 28ch;
+      margin: 0 auto;
+    }
+    @keyframes typing {
+      from { width: 0 }
+      to { width: 28ch }
+    }
+    @keyframes blink {
+      50% { border-color: transparent }
+    }
+    section {
+      padding: 3rem 2rem;
+    }
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+    .service, .testimonial, .translation {
+      background: #fff;
+      border-left: 4px solid #1c1c1c;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .contact {
+      text-align: center;
+    }
+    .contact a {
+      display: inline-block;
+      margin: 1rem;
+      padding: 0.5rem 1rem;
+      background: #1c1c1c;
+      color: #f4f1ec;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background 0.3s ease;
+    }
+    .contact a:hover {
+      background: #333;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #1c1c1c;
+      color: #f4f1ec;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Keyboard Alchemist</h1>
+    <p>Turning thoughts into words, one keystroke at a time...</p>
+  </header>
+
+  <section>
+    <h2>Services</h2>
+    <div class="service">Document Typing – <em>Contact me for pricing</em></div>
+    <div class="service">Academic Formatting – <em>Contact me for pricing</em></div>
+    <div class="service">Resume/CV Creation – <em>Contact me for pricing</em></div>
+    <div class="service">PDF to Word Conversion – <em>Contact me for pricing</em></div>
+    <div class="service">Custom Requests – <em>Contact me for pricing</em></div>
+  </section>
+
+  <section>
+    <h2>Translation Services</h2>
+    <div class="translation">English ⇄ Hindi – <em>Contact me for pricing</em></div>
+    <div class="translation">English ⇄ Marathi – <em>Contact me for pricing</em></div>
+    <div class="translation">Academic and official documents – <em>Contact me for pricing</em></div>
+  </section>
+
+  <section>
+    <h2>Testimonials</h2>
+    <div class="testimonial">"Absolutely amazing service! Fast, accurate, and professional." – Priya M.</div>
+    <div class="testimonial">"Keyboard Alchemist transformed my handwritten notes into a perfect document." – Aman R.</div>
+  </section>
+
+  <section class="contact">
+    <h2>Contact</h2>
+    <p>Get in touch to start your typing project today:</p>
+    <a href="mailto:your.email@example.com">Email Me</a>
+    <a href="https://wa.me/yourwhatsapplink">WhatsApp Me</a>
+  </section>
+
+  <footer>
+    &copy; 2025 Keyboard Alchemist. All rights reserved.
+  </footer>
+</body>
+</html>
